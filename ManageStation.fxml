@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="680.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.FrontController">
+   <center>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="680.0" prefWidth="1200.0" style="-fx-background-color: linear-gradient(to bottom,  #B4E4F6, #3498db) linear-gradient(to bottom,  #B4E4F6, #3498db);" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="addStationButton" layoutX="500.0" layoutY="419.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#ProceedToaddStation" prefHeight="50.0" prefWidth="200.0" style="-fx-background-color: linear-gradient(to bottom, #010050, #002080); -fx-background-radius: 15; -fx-border-color: white; -fx-border-width: 2; -fx-border-radius: 13;" text="Add Station" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="22.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Label layoutX="600.0" layoutY="293.0" prefHeight="38.0" prefWidth="186.0" text="Station Name" textFill="#08134e">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="30.0" />
+               </font>
+            </Label>
+            <TextField fx:id="StationNameText" layoutX="818.0" layoutY="292.0" prefHeight="40.0" prefWidth="250.0" promptText="Name Of Station">
+               <font>
+                  <Font name="Berlin Sans FB" size="18.0" />
+               </font></TextField>
+            <Button fx:id="deleteStationButton" layoutX="735.0" layoutY="419.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#ProceedToDeleteStation" prefHeight="50.0" prefWidth="200.0" style="-fx-background-color: linear-gradient(to bottom, #010050, #002080); -fx-background-radius: 15; -fx-border-color: white; -fx-border-width: 2; -fx-border-radius: 13;" text="Delete Station" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="22.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="updateStationButton" layoutX="969.0" layoutY="419.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#ProceedToUpdateStation" prefHeight="50.0" prefWidth="200.0" style="-fx-background-color: linear-gradient(to bottom, #010050, #002080); -fx-background-radius: 15; -fx-border-color: white; -fx-border-width: 2; -fx-border-radius: 13;" text="Update Station" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="22.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Pane prefHeight="680.0" prefWidth="450.0" style="-fx-background-color: linear-gradient(to bottom, #010050, #002080);">
+               <children>
+                  <Label layoutX="37.0" layoutY="304.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="54.0" prefWidth="377.0" text="Manage Stations🚊" textFill="WHITE">
+                     <font>
+                        <Font name="Berlin Sans FB Demi Bold" size="45.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <ImageView fitHeight="250.0" fitWidth="361.0" layoutX="649.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+        <Image url="file:/C:/Users/Hp/Downloads/Train%20Reservation%20System/abc.png" />
+    </image>
+            </ImageView>
+ <Button layoutX="1060.0" layoutY="607.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="98.0" style="-fx-background-color: #010050, #002080; -fx-background-radius: 20; -fx-border-color: white; -fx-border-width: 2; -fx-border-radius: 20;" text="Back" textAlignment="CENTER" textFill="WHITE" onAction="#GoToAdminMenu">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="18.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

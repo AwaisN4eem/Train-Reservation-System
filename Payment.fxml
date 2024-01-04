@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="680.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.FrontController">
+   <center>
+      <AnchorPane style="-fx-background-color: linear-gradient(to bottom,  #B4E4F6, #3498db) linear-gradient(to bottom,  #B4E4F6, #3498db);" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="619.0" layoutY="382.0" text="Card Number">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="25.0" />
+   </font>
+            </Label>
+            <TextField layoutX="822.0" layoutY="377.0" prefHeight="40.0" prefWidth="250.0" promptText="Enter your card number">
+               <font>
+                  <Font name="Berlin Sans FB" size="18.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor>
+            </TextField>
+            <Button layoutX="812.0" layoutY="555.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" style="-fx-background-color: linear-gradient(to bottom, #010050, #002080) linear-gradient(to bottom, #010050, #002080); -fx-border-color: white; -fx-border-width: 2; -fx-border-radius: 13; -fx-background-radius: 15;" text="Proceed" textFill="WHITE" onAction="#Success">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="20.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+                      </Button>
+            <Label layoutX="625.0" layoutY="440.0" text="CVV Number">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="25.0" />
+               </font>
+            </Label>
+          
+            <TextField layoutX="822.0" layoutY="435.0" prefHeight="40.0" prefWidth="250.0" promptText="Enter 3-digit CVV number">
+               <font>
+                  <Font name="Berlin Sans FB" size="18.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor>
+            </TextField>
+               
+            <Pane prefHeight="680.0" prefWidth="450.0" style="-fx-background-color: linear-gradient(to bottom, #010050, #002080) linear-gradient(to bottom, #010050, #002080);">
+               <children>
+                  <Label layoutX="27.0" layoutY="314.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="52.0" prefWidth="396.0" text="Customer Payment 💰" textFill="WHITE">
+                     <font>
+                        <Font name="Berlin Sans FB Demi Bold" size="40.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <ImageView fitHeight="239.0" fitWidth="437.0" layoutX="641.0" layoutY="-26.0" pickOnBounds="true" preserveRatio="true">
+                          <image>
+        <Image url="file:/C:/Users/Hp/Downloads/Train%20Reservation%20System/abc.png" />
+    </image>
+
+                       </ImageView>
+            <Button layoutX="1071.0" layoutY="615.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="40.0" prefWidth="100.0" style="-fx-background-color: linear-gradient(to bottom, #010050, #002080) linear-gradient(to bottom, #010050, #002080); -fx-border-color: white; -fx-border-width: 2; -fx-border-radius: 13; -fx-background-radius: 15;" text="Back" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="18.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Label layoutX="644.0" layoutY="272.0" text="Note: We use card payment, as it's reliable 😊" textFill="#730000">
+               <font>
+                  <Font name="Berlin Sans FB" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="579.0" layoutY="496.0" text="Card Expiry Date">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="25.0" />
+                      </font>
+            </Label>
+            <TextField layoutX="822.0" layoutY="491.0" prefHeight="40.0" prefWidth="250.0" promptText="Expiry Date of Card">
+               <font>
+                  <Font name="Berlin Sans FB" size="18.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor>
+            </TextField>
+            <Label layoutX="704.0" layoutY="325.0" text="Name">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="25.0" />
+               </font>
+            </Label>
+            <TextField layoutX="822.0" layoutY="321.0" prefHeight="40.0" prefWidth="250.0" promptText="Enter your name ">
+               <font>
+                  <Font name="Berlin Sans FB" size="18.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor>
+            </TextField>
+         </children>
+                   </AnchorPane>
+   </center>
+</BorderPane>
