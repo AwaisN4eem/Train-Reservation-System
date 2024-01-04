@@ -15,19 +15,15 @@ This project not only showcases my technical proficiency in Java, JavaFX, and My
 **How to run this project?:**
 I have used ECLIPSE IDE to implement this whole system   .
 
-<img width="902" alt="image" src="https://github.com/AwaisN4eem/Train-Reservation-System/assets/127003551/ac42b51b-f492-4f60-93cc-167ca4a137f6">
+<img width="896" alt="image" src="https://github.com/AwaisN4eem/Train-Reservation-System/assets/127003551/b622246b-5b01-41a8-9cd7-130734e00b77">
 
-<img width="896" alt="image" src="https://github.com/AwaisN4eem/Train-Reservation-System/assets/127003551/f60848d5-dec3-42c5-9004-a5827ac265e7">
+<img width="893" alt="image" src="https://github.com/AwaisN4eem/Train-Reservation-System/assets/127003551/d37760e7-2242-4b4c-bd8c-11bd688a7203">
 
-<img width="883" alt="image" src="https://github.com/AwaisN4eem/Train-Reservation-System/assets/127003551/123bd6ac-f93d-4e76-87b3-f3d2e001cbe1">
+<img width="872" alt="image" src="https://github.com/AwaisN4eem/Train-Reservation-System/assets/127003551/fa0a1711-b59c-4c63-b185-54e518fdc2a6">
 
-<img width="890" alt="image" src="https://github.com/AwaisN4eem/Train-Reservation-System/assets/127003551/ae483fe8-2a3b-4c8c-a1aa-ae1733058e32">
+<img width="881" alt="image" src="https://github.com/AwaisN4eem/Train-Reservation-System/assets/127003551/c98d0ec0-23cf-4231-aed6-d7acb252a841">
 
-<img width="894" alt="image" src="https://github.com/AwaisN4eem/Train-Reservation-System/assets/127003551/a6f0132c-b069-4c3b-8c58-67a3f850789f">
-
-<img width="887" alt="image" src="https://github.com/AwaisN4eem/Train-Reservation-System/assets/127003551/c1e89cfe-c00a-460a-b1f7-98c66334d058">
-
-
+<img width="872" alt="image" src="https://github.com/AwaisN4eem/Train-Reservation-System/assets/127003551/99252efc-9994-48e8-a896-823588db01fc">
 
 
 
